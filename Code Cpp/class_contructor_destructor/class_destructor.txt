@@ -1,0 +1,6 @@
+Destructor:
+1. destructor name same as class name.
+2. declaration syntax: 
+    ~class_name();
+3. destructor calls automatically.
+4. It is used to destroy the objects.

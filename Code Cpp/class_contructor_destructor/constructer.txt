@@ -1,0 +1,13 @@
+Constructor: 
+1. Special method / function
+2. It is used to initialize the data members of the class
+3. constructor name same as class name 
+4. Constructor calls automatically when we create the object.
+5. constructor doesn't have any return type
+ 
+Types of constructor:
+1. default constructor
+Syntax: class_name()
+ 
+2. parameterized constructor
+Syntax: class_name(parameter list)

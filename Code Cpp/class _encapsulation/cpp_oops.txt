@@ -1,0 +1,62 @@
+OOP's Concepts:
+    4 pillars:
+        1. Encapsulation (data binding)
+        classes & objects
+        constructor and destructor
+        
+        2. polymorphism : many ways / methods
+        types:
+            1. Compile time polymorphism    
+                function overloading
+                operator overloading
+            2. runtime polymorphism
+                virtual function
+                
+        3. Inheritance
+            Types:
+                1. Single inheritance
+                2. Multiple
+                3. multilevel
+                4. Hierarchical
+                5. hybrid
+                 
+        4. Abstraction (data hiding)
+            Pure virtual function
+        
+Dynamic objects:
+    new & delete operator
+    
+***************************************************
+
+Classes and objects:
+    Class: logical entity.
+user-defined , derived datatype, collection of data members and member functions.
+Syntax: 
+class class_name{
+    data members;
+    member functions;
+};
+ 
+Access Specifiers:
+1. public: access data publicly / throughout the program
+ 
+2. private: Can't access private data outside the class
+3. protected:                     
+        
+Object : real time entity ,instance
+    eg: table,person,
+ 
+Syntax: class_name object_name;
+
+**************************************************
+Scope resolution operator: (::)
+1. to access data members and member functions out of the scope.
+2. to access objects of input and output stream class out of the scope.
+    eg: std::cout<<
+        std::cin>>        
+        
+define member function outside the class:
+Syntax: return_type class_name ::function_name()
+    {
+        //statement body
+    }

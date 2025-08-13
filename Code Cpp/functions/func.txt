@@ -1,0 +1,15 @@
+Function:(user defined function) 
+    Procedure / subroutine 
+    Advantages :
+    1. code reusability 
+    2. code optimization
+    
+Function declaration: 
+    Syntax: return_type fun_name(parameter list);
+Function calling:
+    Syntax: fun_name(parameters);
+Function definition:
+    Syntax: return_type fun_name(parameter list)
+        {
+            //statement body
+        }
